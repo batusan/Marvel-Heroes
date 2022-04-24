@@ -1,18 +1,35 @@
-# week3 case
+<img src="https://batusan-marvel.vercel.app/logo192.png" alt="Logo of the project" align="right">
 
-https://developer.marvel.com/ API ını kullanarak geçen hafta ki çalışmanızı devam ettirmeniz istenmektedir.
+# Marvel heros 
+> Application that help me to know my favorite characters using the Marvel api
 
-**HEDEF** : Bir React.JS projesi içerisinde API a istek atarak belirli dataları göstermek ve sayfalamak.
+[Live demo](https://batusan-marvel.vercel.app/)
 
-**İsterler**
-++ Api üzerinde bulunan pagination yapısı ile projenizde pagination yapmanız istenmektedir. Her sayfa değişiminde istek atılarak o sayfaya ait data gelecektir. Ancak geri dönüldüğünde **local storage % session storage** üzerinden data alınması sağlanmalıdır. Sayfada geri dönüldüğünde istek atılmamalıdır.
+## Installing / Getting started
 
-++ useEffect, useState hooks kullanımına özen gösterilmelidir.
+Firstly you need to get a MARVEL API key : 
 
-++ Axios kullanmanız önerilir.
+https://developer.marvel.com/
 
-++ CSS, HTML, JS ile devam edeceğiz. Projenizde ekstra CSS sablonları v.s kullanmayınız.
+You need to put this key in .env file and then run commands : 
+
+```shell
+npm install - Install dependecies
+npm start - Gonna start project
+```
+
+## Tech stack 
+
+- React 
+- i18 (Multi-language support)
+- Axios
+
+## Screenshot
+
+<img src="./docs/screenshot.png" alt="Screenshot of the project">
 
 
+## Api Reference
 
-![Screenshot](screen.png "Screenshot of app")
+API Documentation : [API Docs](https://developer.marvel.com/docs)
+
